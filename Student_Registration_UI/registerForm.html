@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/registerForm.css">
+        <title>Student Registration</title>
+    </head>
+    <body>
+        <div class="divEdit">
+            <input type="text" name="emailAddress" id="emailAddress" placeholder="Enter your E-mail address here.." id="emailAddress" class="emailPosition">
+            <button id="btnSignIn" class="buttonSignin">Sign in</button>
+            <div class="divImage">
+                Add Photo :<input type="file" name="image" id="imageInput" accept="image/*">
+            </div>
+        </div>
+
+        <table>
+            <form id="student-form">
+                <tr>
+                <td colspan="2"><h2>Student Information</h2></td> 
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Name :</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="studentName" id="studentName" placeholder="First Name & Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Age :</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="studentAge" id="studentAge">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Address :</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="studentAddress" id="studentAddress">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Contact Number :</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="studentContact" id="studentContact">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Date of Birth :</h3>
+                    </td>
+                    <td>
+                        <input type="date" name="studentDOB" id="studentDOB">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h2>Guardian Information</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Name :</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="guardianName" id="guardianName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Address :</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="guardianAddress" id="guardianAddress">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Contact Number :</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="guardianContact" id="guardianContact">
+                    </td>
+                </tr>
+            </form>
+        </table>
+
+        <button id="btnClear" class="buttonClear">Clear</button>
+        <button type="submit" id="btnRegister" class="buttonRegister">Register</button>
+        <button id="btnHome" class="buttonHomePage">Home Page</button>
+
+        <script src="js/registerForm.js"></script>
+    </body>
+</html>

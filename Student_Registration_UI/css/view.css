@@ -1,0 +1,47 @@
+body{
+    background-image:url('university-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-position: 80%;
+}
+.tblView{
+    background-color: #dfe6e9;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 300px;
+    width:600px;
+}
+.tblStudentInfo{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    margin-left: 600px;
+}
+.buttonRemove{
+    position: absolute;
+    margin-left: 820px;
+}
+.buttonUpdate{
+    position: absolute;
+    margin-left: 650px;
+}
+.alertRemoved{
+    position: absolute;
+    margin-top: 10px;   
+}
+.logo{
+    width:100px;
+    height: 30px;
+}
+.searchPanel{
+    width : 500px;
+    height : 40px;
+}
+.nameHeader{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
